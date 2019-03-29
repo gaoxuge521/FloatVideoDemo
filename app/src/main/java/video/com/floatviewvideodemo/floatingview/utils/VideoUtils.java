@@ -124,6 +124,8 @@ public final class VideoUtils {
     }
 
 
+
+
     public static void appendVideo(Context context,String saveVideoPath,String[] videos) throws IOException{
         Movie[] inMovies = new Movie[videos.length];
         int index = 0;
