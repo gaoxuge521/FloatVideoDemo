@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements FloatingViewListe
                     mFloatingViewManager.removeAllFloatingView();
                 }
                 cancleVideo();
+                stopCamera();
             }
         });
 
