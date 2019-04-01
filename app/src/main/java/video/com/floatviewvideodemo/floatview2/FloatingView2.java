@@ -231,7 +231,7 @@ public class FloatingView2 extends FrameLayout implements ViewTreeObserver.OnPre
         this.mParams.type = WindowManager.LayoutParams.TYPE_PHONE;
         this.mParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY;
         this.mParams.type = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
-        this.mParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_ERROR;
+//        this.mParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_ERROR;
         this.mParams.flags = WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS | WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL;
         this.mParams.format = PixelFormat.TRANSLUCENT;
         this.mParams.gravity = Gravity.LEFT | Gravity.TOP;
