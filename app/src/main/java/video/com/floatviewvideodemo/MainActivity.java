@@ -701,7 +701,9 @@ public class MainActivity extends AppCompatActivity implements FloatingViewListe
      */
 
     private void configMediaRecorder() {
-        mediaRecorder = new MediaRecorder();
+        if(mediaRecorder==null){
+            mediaRecorder = new MediaRecorder();
+        }
         mediaRecorder.reset();
         mediaRecorder.setCamera(mCamera);
         mediaRecorder.setOnErrorListener(OnErrorListener);
